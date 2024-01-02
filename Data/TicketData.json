@@ -1,1 +1,50 @@
-{"tickets": [{}]}
+{
+    "tickets": [
+        {},
+        {
+            "id": "1191728374972948550",
+            "name": "ticket-0000",
+            "user": "978707877059502100",
+            "number": "0000",
+            "reason": "No Reason Provided!",
+            "open": false,
+            "subUsers": []
+        },
+        {
+            "id": "1191729018018463835",
+            "name": "ticket-0001",
+            "user": "978707877059502100",
+            "number": "0001",
+            "reason": "No Reason Provided!",
+            "open": false,
+            "subUsers": []
+        },
+        {
+            "id": "1191735224992800858",
+            "name": "ticket-0002",
+            "user": "978707877059502100",
+            "number": "0002",
+            "reason": "No Reason Provided!",
+            "open": false,
+            "subUsers": []
+        },
+        {
+            "id": "1191736652448665742",
+            "name": "ticket-0003",
+            "user": "978707877059502100",
+            "number": "0003",
+            "reason": "No Reason Provided!",
+            "open": false,
+            "subUsers": []
+        },
+        {
+            "id": "1191776888021078076",
+            "name": "ticket-0004",
+            "user": "1044695804398542868",
+            "number": "0004",
+            "reason": "No Reason Provided!",
+            "open": false,
+            "subUsers": []
+        }
+    ]
+}

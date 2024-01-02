@@ -16,8 +16,8 @@ SupportBot_Version: "v7.7.3"
 #   General Configuration
 # -------------------------
 
-Name: "SupportBot"
-Token: "BOT_TOKEN HTTPS://DISCORD.COM/DEVELOPERS"
+Name: "Mineland Support"
+Token: "MTE5MTcxNDU0MDg0MTM1MzM1Nw.GXeOgL.P5o9TxOy6YqnO-zFYs8m0CKAuxnDXw4prUanMg"
 
 # -------------------------
 #  Activity Configuration
@@ -25,7 +25,7 @@ Token: "BOT_TOKEN HTTPS://DISCORD.COM/DEVELOPERS"
 
 BotActivity: "Here to help!"
 
-StreamingURL: "https://www.twitch.tv/YOUR_TWITCH_NAME"
+StreamingURL: "mineland.g-portal.game"
 # Set The ActivityType to "STREAMING" for a streaming status!
 
 ActivityType: "PLAYING"
@@ -36,7 +36,7 @@ ActivityType: "PLAYING"
 # -------------------------
 
 EmbedColour: "#f74343"
-EmbedFooter: "SupportBot | Developed by Emerald Services"
+EmbedFooter: "SupportBot | Developed by SiliconValley77"
 
 ErrorColour: "#d12519"
 SuccessColour: "#04b545"
@@ -47,10 +47,10 @@ WarningColour: "#fca117"
 # -------------------------
 
 AutoRole: true
-JoinRole: "SupportBot Member"
+JoinRole: "Member"
 
-Staff: "SupportBot Staff"
-Admin: "SupportBot Admin"
+Staff: "Staff"
+Admin: "Admin"
 TicketBlackListRole: "Blacklisted"
 
 # ----------------------------
@@ -101,7 +101,7 @@ InfoTitle: "Information"
 
 InfoButtonText: "Visit Site"
 AboutMe: "I am SupportBot"
-InfoURL: "https://emeraldsrv.dev"
+InfoURL: "mineland.g-portal.game"
 InfoColour: "#f74343"
 
 # ----------------------------
@@ -137,7 +137,7 @@ DMTranscripts: true
 TranscriptTitle: "Ticket Transcript"
 TicketLog_Title: "Ticket Closed"
 TicketBlackListMessage: "You are not allowed to open a ticket"
-TicketRoleMention: "@here"
+TicketRoleMention: "@Staff"
 TicketClaimMessage: "Your ticket will be handled by" #Automaticly tags user to the end
 TicketClaimTitle: "Ticket Claimed"
 TicketUnclaimMessage: "Your ticket is now unclaimed by" #Automaticly tags user to the end
@@ -193,19 +193,19 @@ AllowAllStaff: false
 
 Departments:
   - title: "Support"
-    role: "SupportBot Staff"
+    role: "Staff"
     color: "SECONDARY"
     emoji: "1️⃣"
     category: "Tickets"
 
-  - title: "Billing Support"
-    role: "SupportBot Staff"
+  - title: "Unban"
+    role: "Staff"
     color: "SECONDARY"
     emoji: "2️⃣"
     category: "Tickets"
 
-  - title: "Admin Team"
-    role: "SupportBot Admin"
+  - title: "Other"
+    role: "Staff"
     color: "SECONDARY"
     emoji: "3️⃣"
     category: "Tickets"
@@ -255,7 +255,7 @@ TicketDeleteMessage: "⚠ **Ticket Deleting!**" # Tickets deleting after 5 secon
 # --- Closing Config ---
 #    --- Start ---
 
-StaffOnly: true
+StaffOnly: false
 ClosingTicket: ":warning: You have requested to close your support ticket."
 ClosingConfirmation_Word: "confirm"
 CloseConfirmation: true

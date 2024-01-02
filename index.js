@@ -14,7 +14,7 @@ const fs = require("fs");
 
 const yaml = require("js-yaml");
 const supportbot = yaml.load(
-  fs.readFileSync("./Configs/supportbot.yml", "utf8")
+  fs.readFileSync("./Configs/supportbot.yml", "utf8"),
 );
 
 const Client = require("./Structures/Client.js");
